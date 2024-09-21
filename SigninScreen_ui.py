@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\mindx_app\app intensive\project\SigninScreen.ui'
+# Form implementation generated from reading ui file 'd:\mindx_app\app_intensive\project\SigninScreen.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -13,12 +13,13 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(546, 724)
+        MainWindow.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0.811, y1:0.948864, x2:0.910448, y2:0, stop:0.323383 rgba(204, 111, 0, 255), stop:1 rgba(255, 255, 255, 255));")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout(self.centralwidget)
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.frame = QtWidgets.QFrame(parent=self.centralwidget)
-        self.frame.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0.811, y1:0.948864, x2:0.910448, y2:0, stop:0.323383 rgba(204, 111, 0, 255), stop:1 rgba(255, 255, 255, 255));")
+        self.frame.setStyleSheet("background-color: rgb(255, 255, 255,0);")
         self.frame.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame.setObjectName("frame")
@@ -35,7 +36,7 @@ class Ui_MainWindow(object):
         self.label.setMaximumSize(QtCore.QSize(100, 100))
         self.label.setStyleSheet("background-color: rgb(255, 255, 255,0);")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("d:\\mindx_app\\app intensive\\project\\../user-login-icon-14.png"))
+        self.label.setPixmap(QtGui.QPixmap("d:\\mindx_app\\app_intensive\\project\\imgs/user-login-icon-14.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.horizontalLayout_4.addWidget(self.label)
@@ -43,6 +44,10 @@ class Ui_MainWindow(object):
         self.frame_6 = QtWidgets.QFrame(parent=self.frame)
         self.frame_6.setMinimumSize(QtCore.QSize(500, 40))
         self.frame_6.setMaximumSize(QtCore.QSize(200, 100))
+        font = QtGui.QFont()
+        font.setBold(False)
+        font.setWeight(50)
+        self.frame_6.setFont(font)
         self.frame_6.setStyleSheet("background-color: rgb(255, 255, 255,0);")
         self.frame_6.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame_6.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
@@ -52,6 +57,11 @@ class Ui_MainWindow(object):
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)
         self.horizontalLayout_2.addItem(spacerItem)
         self.pushButton = QtWidgets.QPushButton(parent=self.frame_6)
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
         self.horizontalLayout_2.addWidget(self.pushButton)
         spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Minimum)

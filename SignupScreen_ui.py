@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\mindx_app\app intensive\project\SignupScreen.ui'
+# Form implementation generated from reading ui file 'd:\mindx_app\app_intensive\project\SignupScreen.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -35,7 +35,7 @@ class Ui_MainWindow(object):
         self.label.setMaximumSize(QtCore.QSize(100, 100))
         self.label.setStyleSheet("background-color: rgb(255, 255, 255,0);")
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("d:\\mindx_app\\app intensive\\project\\../user-login-icon-14.png"))
+        self.label.setPixmap(QtGui.QPixmap("d:\\mindx_app\\app_intensive\\project\\imgs/user-login-icon-14.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.horizontalLayout_4.addWidget(self.label)
@@ -170,4 +170,4 @@ class Ui_MainWindow(object):
         self.label_5.setText(_translate("MainWindow", "Password"))
         self.txtPassword.setPlaceholderText(_translate("MainWindow", "Password"))
         self.label_2.setText(_translate("MainWindow", "Birthday"))
-        self.Signin_button.setText(_translate("MainWindow", "SIGN IN"))
+        self.Signin_button.setText(_translate("MainWindow", "SIGN UP"))

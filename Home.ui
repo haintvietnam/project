@@ -78,7 +78,7 @@
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>../Logo.png</pixmap>
+             <pixmap>imgs/Logo.png</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
@@ -124,7 +124,7 @@ border-radius: 15px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../icon_home.png</normaloff>../icon_home.png</iconset>
+              <normaloff>imgs/icon_home.png</normaloff>imgs/icon_home.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -173,7 +173,7 @@ border-radius: 15px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../save-icon-512x512-552twxqx.png</normaloff>../save-icon-512x512-552twxqx.png</iconset>
+              <normaloff>imgs/icon_phả_ kế.png</normaloff>imgs/icon_phả_ kế.png</iconset>
             </property>
            </widget>
           </item>
@@ -216,7 +216,7 @@ border-radius: 15px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../icon-menu-đẹp.png</normaloff>../icon-menu-đẹp.png</iconset>
+              <normaloff>imgs/icon-menu-đẹp.png</normaloff>imgs/icon-menu-đẹp.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -271,7 +271,7 @@ border-radius: 15px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../pngtree-office-paper-icon-design-png-image_4743379.jpg</normaloff>../pngtree-office-paper-icon-design-png-image_4743379.jpg</iconset>
+              <normaloff>imgs/pngtree-office-paper-icon-design-png-image_4743379.jpg</normaloff>imgs/pngtree-office-paper-icon-design-png-image_4743379.jpg</iconset>
             </property>
            </widget>
           </item>
@@ -331,7 +331,7 @@ border-radius: 15px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</normaloff>../png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</iconset>
+              <normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</iconset>
             </property>
            </widget>
           </item>
@@ -377,7 +377,7 @@ border-radius: 15px;
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap>../icon_trang_chu_gia_pha.png</pixmap>
+        <pixmap>imgs/icon_trang_chu_gia_pha.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
@@ -442,7 +442,7 @@ border-radius: 15px;
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../iocn_1.png</normaloff>../iocn_1.png</iconset>
+           <normaloff>imgs/icon_công_đức.png</normaloff>imgs/icon_công_đức.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -462,7 +462,7 @@ border-radius: 15px;
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../icon_phả_hệ.png</normaloff>../icon_phả_hệ.png</iconset>
+           <normaloff>imgs/icon_phả_đồ.png</normaloff>imgs/icon_phả_đồ.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -482,7 +482,7 @@ border-radius: 15px;
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../icon_công_đức.png</normaloff>../icon_công_đức.png</iconset>
+           <normaloff>imgs/iocn_1.png</normaloff>imgs/iocn_1.png</iconset>
          </property>
          <property name="iconSize">
           <size>
@@ -502,7 +502,7 @@ border-radius: 15px;
          </property>
          <property name="icon">
           <iconset>
-           <normaloff>../icon_phả_đồ.png</normaloff>../icon_phả_đồ.png</iconset>
+           <normaloff>imgs/icon_phả_hệ.png</normaloff>imgs/icon_phả_hệ.png</iconset>
          </property>
          <property name="iconSize">
           <size>
