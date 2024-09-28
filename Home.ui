@@ -148,6 +148,9 @@ border-radius: 15px;
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
+         <property name="toolTipDuration">
+          <number>-3</number>
+         </property>
          <property name="styleSheet">
           <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
@@ -167,9 +170,9 @@ border-radius: 15px;
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QPushButton" name="pushButton_7">
+           <widget class="QPushButton" name="pha_ky_1">
             <property name="text">
-             <string>Phả Kế</string>
+             <string>Phả Ký</string>
             </property>
             <property name="icon">
              <iconset>
@@ -210,7 +213,7 @@ border-radius: 15px;
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QPushButton" name="pushButton_6">
+           <widget class="QPushButton" name="pha_he_1">
             <property name="text">
              <string>Phả Hệ</string>
             </property>
@@ -230,7 +233,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frame_9">
+        <widget class="QFrame" name="cong_duc_1">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -279,7 +282,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frame_4">
+        <widget class="QFrame" name="pha_do_1">
          <property name="minimumSize">
           <size>
            <width>0</width>
@@ -433,7 +436,7 @@ border-radius: 15px;
       </property>
       <layout class="QGridLayout" name="gridLayout">
        <item row="0" column="0" rowspan="2">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="cong_duc_2">
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
@@ -453,7 +456,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item row="0" column="1">
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="pha_do_2">
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
@@ -473,7 +476,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item row="1" column="1" rowspan="2">
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="pha_ky_2">
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
@@ -493,7 +496,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item row="2" column="0">
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="pha_he_2">
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>

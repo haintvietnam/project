@@ -533,7 +533,7 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
-         <x>480</x>
+         <x>550</x>
          <y>10</y>
          <width>81</width>
          <height>16</height>
@@ -582,15 +582,15 @@ color: rgb(255, 255, 255);</string>
       </property>
       <property name="iconSize">
        <size>
-        <width>60</width>
-        <height>60</height>
+        <width>100</width>
+        <height>100</height>
        </size>
       </property>
       <property name="rowCount">
-       <number>8</number>
+       <number>5</number>
       </property>
       <property name="columnCount">
-       <number>5</number>
+       <number>6</number>
       </property>
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>false</bool>
@@ -603,9 +603,7 @@ color: rgb(255, 255, 255);</string>
       <row/>
       <row/>
       <row/>
-      <row/>
-      <row/>
-      <row/>
+      <column/>
       <column/>
       <column/>
       <column/>
@@ -632,7 +630,25 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>../icon_del.png</normaloff>../icon_del.png</iconset>
+         <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="1" column="0">
@@ -650,6 +666,33 @@ color: rgb(255, 255, 255);</string>
         <string>Ngày</string>
        </property>
       </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
+       </property>
+      </item>
       <item row="2" column="0">
        <property name="text">
         <string>SĐT đăng nhập</string>
@@ -663,6 +706,33 @@ color: rgb(255, 255, 255);</string>
       <item row="2" column="2">
        <property name="text">
         <string>Ngày</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
+       </property>
+      </item>
+      <item row="2" column="4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
+       </property>
+      </item>
+      <item row="2" column="5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="3" column="0">
@@ -680,6 +750,33 @@ color: rgb(255, 255, 255);</string>
         <string>Ngày</string>
        </property>
       </item>
+      <item row="3" column="3">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
+       </property>
+      </item>
+      <item row="3" column="4">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
+       </property>
+      </item>
+      <item row="3" column="5">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
+       </property>
+      </item>
       <item row="4" column="0">
        <property name="text">
         <string>SĐT đăng nhập</string>
@@ -695,49 +792,28 @@ color: rgb(255, 255, 255);</string>
         <string>Ngày</string>
        </property>
       </item>
-      <item row="5" column="0">
+      <item row="4" column="3">
        <property name="text">
-        <string>SĐT đăng nhập</string>
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
        </property>
       </item>
-      <item row="5" column="1">
-       <property name="text">
-        <string>Họ tên</string>
+      <item row="4" column="4">
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
        </property>
       </item>
-      <item row="5" column="2">
+      <item row="4" column="5">
        <property name="text">
-        <string>Ngày</string>
+        <string/>
        </property>
-      </item>
-      <item row="6" column="0">
-       <property name="text">
-        <string>SĐT đăng nhập</string>
-       </property>
-      </item>
-      <item row="6" column="1">
-       <property name="text">
-        <string>Họ tên</string>
-       </property>
-      </item>
-      <item row="6" column="2">
-       <property name="text">
-        <string>Ngày</string>
-       </property>
-      </item>
-      <item row="7" column="0">
-       <property name="text">
-        <string>SĐT đăng nhập</string>
-       </property>
-      </item>
-      <item row="7" column="1">
-       <property name="text">
-        <string>Họ tên</string>
-       </property>
-      </item>
-      <item row="7" column="2">
-       <property name="text">
-        <string>Ngày</string>
+       <property name="icon">
+        <iconset>
+         <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
      </widget>
