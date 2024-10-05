@@ -230,55 +230,6 @@ border-radius: 15px;
         </widget>
        </item>
        <item>
-        <widget class="QFrame" name="frame_9">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QWidget{
-background-color: rgb(255, 255, 255, 0);
-border-radius: 15px;
-}
-QWidget:hover{
-
-border-radius: 15px;
-	background-color: rgb(236, 150, 30);
-}</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_5">
-          <item>
-           <widget class="QPushButton" name="pushButton_8">
-            <property name="text">
-             <string>Công Đức</string>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>imgs/pngtree-office-paper-icon-design-png-image_4743379.jpg</normaloff>imgs/pngtree-office-paper-icon-design-png-image_4743379.jpg</iconset>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
         <widget class="QFrame" name="frame_4">
          <property name="minimumSize">
           <size>
@@ -802,6 +753,9 @@ color: rgb(255, 255, 255);</string>
        </property>
       </item>
       <item row="4" column="4">
+       <property name="text">
+        <string/>
+       </property>
        <property name="icon">
         <iconset>
          <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
