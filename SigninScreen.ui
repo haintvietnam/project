@@ -33,7 +33,7 @@
        <item>
         <widget class="QFrame" name="frame_7">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -88,7 +88,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -149,7 +149,7 @@
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -239,7 +239,7 @@ border-radius: 15px;background-color: rgb(255, 255, 255);
        <item>
         <widget class="QFrame" name="frame_8">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -329,7 +329,7 @@ border-radius: 15px;</string>
           </size>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -361,7 +361,7 @@ border-radius: 15px;</string>
        <item>
         <widget class="QFrame" name="frame_5">
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+          <string notr="true">background-color: rgba(255, 255, 255,0);</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>

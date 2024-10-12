@@ -6,8 +6,8 @@ import sys
 class Login(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("pha_do_dong_ho.ui", self)
-        # self.Signin_button.clicked.connect(self.check_login)
+        uic.loadUi("SigninScreen.ui", self)
+        self.Signin_button.clicked.connect(self.check_login)
         # self.btn_register.clicked.connect(self.showRegister)
     def check_login(self):
         Username = self.txtUsername.text()
@@ -29,7 +29,7 @@ class Login(QtWidgets.QMainWindow):
 class Main(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi("pha_do_dong_ho.ui", self)
+        uic.loadUi("SigninScreen.ui", self)
 #         self.icon_pha_do_1.clicked.connect(self.pha_do_1)
 #         self.icon_pha_do_2.clicked.connect(self.pha_do_2)
 #         self.icon_cong_duc_1.clicked.connect(self.cong_duc_1)
