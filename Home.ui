@@ -17,90 +17,76 @@
    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.811, y1:0.948864, x2:0.910448, y2:0, stop:0.323383 rgba(204, 111, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QFrame" name="frame">
-      <property name="minimumSize">
-       <size>
-        <width>100</width>
-        <height>100</height>
-       </size>
-      </property>
-      <property name="maximumSize">
-       <size>
-        <width>1000</width>
-        <height>100</height>
-       </size>
-      </property>
+     <widget class="QStackedWidget" name="stackedWidget">
       <property name="styleSheet">
-       <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+       <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
       </property>
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
+      <property name="currentIndex">
+       <number>0</number>
       </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QFrame" name="frame_5">
-         <property name="maximumSize">
-          <size>
-           <width>100</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_6">
-          <item>
-           <widget class="QLabel" name="label">
-            <property name="minimumSize">
-             <size>
-              <width>5</width>
-              <height>5</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>100</width>
-              <height>100</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255, 0);</string>
-            </property>
-            <property name="text">
-             <string/>
-            </property>
-            <property name="pixmap">
-             <pixmap>imgs/Logo.png</pixmap>
-            </property>
-            <property name="scaledContents">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QFrame" name="frame_6">
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QWidget{
+      <widget class="QWidget" name="page">
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QFrame" name="frame_5">
+          <property name="maximumSize">
+           <size>
+            <width>100</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="minimumSize">
+              <size>
+               <width>5</width>
+               <height>5</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>100</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255, 0);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>imgs/Logo.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_6">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
 border-radius: 15px;
 }
@@ -109,50 +95,44 @@ QWidget:hover{
 border-radius: 15px;
 	background-color: rgb(236, 150, 30);
 }</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_2">
-          <item>
-           <widget class="QPushButton" name="pushButton">
-            <property name="text">
-             <string>Trang Chủ</string>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>imgs/icon_home.png</normaloff>imgs/icon_home.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>25</width>
-              <height>25</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QFrame" name="frame_7">
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="toolTipDuration">
-          <number>-3</number>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QWidget{
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="pushButton">
+             <property name="text">
+              <string>Trang Chủ</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>imgs/icon_home.png</normaloff>imgs/icon_home.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>25</width>
+               <height>25</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
 border-radius: 15px;
 }
@@ -161,41 +141,18 @@ QWidget:hover{
 border-radius: 15px;
 	background-color: rgb(236, 150, 30);
 }</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_3">
-          <item>
-           <widget class="QPushButton" name="pha_ky_1">
-            <property name="text">
-             <string>Phả Ký</string>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>imgs/icon_phả_ kế.png</normaloff>imgs/icon_phả_ kế.png</iconset>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QFrame" name="frame_8">
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QWidget{
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QPushButton" name="pushButton_9">
+             <property name="styleSheet">
+              <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
 border-radius: 15px;
 }
@@ -204,53 +161,29 @@ QWidget:hover{
 border-radius: 15px;
 	background-color: rgb(236, 150, 30);
 }</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_4">
-          <item>
-           <widget class="QPushButton" name="pha_he_1">
-            <property name="text">
-             <string>Phả Hệ</string>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>imgs/icon-menu-đẹp.png</normaloff>imgs/icon-menu-đẹp.png</iconset>
-            </property>
-            <property name="iconSize">
-             <size>
-              <width>35</width>
-              <height>35</height>
-             </size>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QFrame" name="pha_do_1">
-         <property name="minimumSize">
-          <size>
-           <width>0</width>
-           <height>0</height>
-          </size>
-         </property>
-         <property name="maximumSize">
-          <size>
-           <width>150</width>
-           <height>100</height>
-          </size>
-         </property>
-         <property name="cursor">
-          <cursorShape>PointingHandCursor</cursorShape>
-         </property>
-         <property name="styleSheet">
-          <string notr="true">QWidget{
+             </property>
+             <property name="text">
+              <string>Phả Đồ</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_4">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
 border-radius: 15px;
 }
@@ -259,18 +192,50 @@ QWidget:hover{
 border-radius: 15px;
 	background-color: rgb(236, 150, 30);
 }</string>
-         </property>
-         <property name="frameShape">
-          <enum>QFrame::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Raised</enum>
-         </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_7">
-          <item>
-           <widget class="QPushButton" name="pushButton_9">
-            <property name="styleSheet">
-             <string notr="true">QWidget{
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="pha_he_1">
+             <property name="text">
+              <string>Phả Hệ</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>imgs/icon-menu-đẹp.png</normaloff>imgs/icon-menu-đẹp.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>35</width>
+               <height>35</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_7">
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>100</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="toolTipDuration">
+           <number>-3</number>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QWidget{
 background-color: rgb(255, 255, 255, 0);
 border-radius: 15px;
 }
@@ -279,20 +244,31 @@ QWidget:hover{
 border-radius: 15px;
 	background-color: rgb(236, 150, 30);
 }</string>
-            </property>
-            <property name="text">
-             <string>Phả Đồ</string>
-            </property>
-            <property name="icon">
-             <iconset>
-              <normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</normaloff>imgs/png-clipart-computer-icons-git-branching-fork-git-share-icon-graphical-user-interface-thumbnail.png</iconset>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-       </item>
-      </layout>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="pha_ky_1">
+             <property name="text">
+              <string>Phả Ký</string>
+             </property>
+             <property name="icon">
+              <iconset>
+               <normaloff>imgs/icon_phả_ kế.png</normaloff>imgs/icon_phả_ kế.png</iconset>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
      </widget>
     </item>
     <item>
@@ -300,13 +276,13 @@ border-radius: 15px;
       <property name="minimumSize">
        <size>
         <width>0</width>
-        <height>0</height>
+        <height>160</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
         <width>1000</width>
-        <height>200</height>
+        <height>400</height>
        </size>
       </property>
       <property name="styleSheet">
@@ -385,7 +361,7 @@ border-radius: 15px;
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <layout class="QVBoxLayout" name="verticalLayout">
        <item>
         <widget class="QPushButton" name="pha_do_2">
          <property name="cursor">

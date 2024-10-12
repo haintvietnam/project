@@ -112,9 +112,15 @@
           </item>
           <item>
            <widget class="QPushButton" name="pushButton">
+            <property name="maximumSize">
+             <size>
+              <width>1000</width>
+              <height>1000</height>
+             </size>
+            </property>
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <pointsize>12</pointsize>
               <weight>75</weight>
               <bold>true</bold>
              </font>
@@ -346,9 +352,9 @@ border-radius: 15px;</string>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="btn_register">
+           <widget class="QPushButton" name="btn_register">
             <property name="styleSheet">
-             <string notr="true">color: rgb(0, 0, 255);</string>
+             <string notr="true">color: rgb(15, 19, 255);</string>
             </property>
             <property name="text">
              <string>Register</string>
