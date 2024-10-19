@@ -153,14 +153,17 @@
          </property>
          <layout class="QFormLayout" name="formLayout">
           <item row="0" column="0">
-           <widget class="QLabel" name="label_3">
+           <widget class="QLabel" name="label_4">
             <property name="font">
              <font>
               <pointsize>10</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255,0);</string>
+            </property>
             <property name="text">
-             <string>Phone number</string>
+             <string>Username</string>
             </property>
            </widget>
           </item>
@@ -189,45 +192,6 @@ border-radius: 15px;</string>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QLabel" name="label_4">
-            <property name="font">
-             <font>
-              <pointsize>10</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255,0);</string>
-            </property>
-            <property name="text">
-             <string>Username</string>
-            </property>
-           </widget>
-          </item>
-          <item row="1" column="1">
-           <widget class="QLineEdit" name="txtUsername">
-            <property name="minimumSize">
-             <size>
-              <width>100</width>
-              <height>30</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">background-color: rgb(255, 255, 255);
-background-color: rgb(255, 255, 255);
-border-radius: 15px;</string>
-            </property>
-            <property name="placeholderText">
-             <string>Username</string>
-            </property>
-           </widget>
-          </item>
-          <item row="2" column="0">
            <widget class="QLabel" name="label_5">
             <property name="font">
              <font>
@@ -242,8 +206,8 @@ border-radius: 15px;</string>
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
-           <widget class="QLineEdit" name="txtPassword">
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="txtPassword_2">
             <property name="minimumSize">
              <size>
               <width>100</width>
@@ -263,7 +227,7 @@ border-radius: 15px;background-color: rgb(255, 255, 255);
             </property>
            </widget>
           </item>
-          <item row="3" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="label_2">
             <property name="font">
              <font>
@@ -277,7 +241,7 @@ border-radius: 15px;background-color: rgb(255, 255, 255);
             </property>
            </widget>
           </item>
-          <item row="3" column="1">
+          <item row="2" column="1">
            <widget class="QDateEdit" name="dateEdit"/>
           </item>
          </layout>

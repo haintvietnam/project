@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>979</width>
-    <height>727</height>
+    <width>952</width>
+    <height>691</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -386,7 +386,7 @@ border-radius: 15px;
        <property name="geometry">
         <rect>
          <x>10</x>
-         <y>17</y>
+         <y>10</y>
          <width>171</width>
          <height>31</height>
         </rect>
@@ -424,29 +424,10 @@ color: rgb(255, 255, 255);</string>
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="label_4">
-       <property name="geometry">
-        <rect>
-         <x>30</x>
-         <y>10</y>
-         <width>111</width>
-         <height>16</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <weight>75</weight>
-         <bold>true</bold>
-        </font>
-       </property>
-       <property name="text">
-        <string>SĐT đăng nhập</string>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>180</x>
+         <x>30</x>
          <y>10</y>
          <width>55</width>
          <height>16</height>
@@ -465,9 +446,9 @@ color: rgb(255, 255, 255);</string>
       <widget class="QLabel" name="label_6">
        <property name="geometry">
         <rect>
-         <x>310</x>
+         <x>150</x>
          <y>10</y>
-         <width>55</width>
+         <width>71</width>
          <height>16</height>
         </rect>
        </property>
@@ -478,7 +459,7 @@ color: rgb(255, 255, 255);</string>
         </font>
        </property>
        <property name="text">
-        <string>Ngày</string>
+        <string>Ngày sinh</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_7">
@@ -498,6 +479,25 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
         <string>Chình sửa</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>10</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Ngày mất</string>
        </property>
       </widget>
      </widget>
@@ -541,7 +541,7 @@ color: rgb(255, 255, 255);</string>
        <number>5</number>
       </property>
       <property name="columnCount">
-       <number>6</number>
+       <number>5</number>
       </property>
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>false</bool>
@@ -559,20 +559,19 @@ color: rgb(255, 255, 255);</string>
       <column/>
       <column/>
       <column/>
-      <column/>
       <item row="0" column="0">
-       <property name="text">
-        <string>SĐT đăng nhập</string>
-       </property>
-      </item>
-      <item row="0" column="1">
        <property name="text">
         <string>Họ tên</string>
        </property>
       </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>Sinh: dd/mm/yyyy </string>
+       </property>
+      </item>
       <item row="0" column="2">
        <property name="text">
-        <string>Ngày</string>
+        <string>Mất: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="0" column="3">
@@ -590,31 +589,22 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
-       </property>
-      </item>
-      <item row="0" column="5">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
          <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="1" column="0">
        <property name="text">
-        <string>SĐT đăng nhập</string>
+        <string>Họ tên</string>
        </property>
       </item>
       <item row="1" column="1">
        <property name="text">
-        <string>Họ tên</string>
+        <string>Sinh: dd/mm/yyyy </string>
        </property>
       </item>
       <item row="1" column="2">
        <property name="text">
-        <string>Ngày</string>
+        <string>Mất: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="1" column="3">
@@ -632,31 +622,22 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
-       </property>
-      </item>
-      <item row="1" column="5">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
          <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="2" column="0">
        <property name="text">
-        <string>SĐT đăng nhập</string>
+        <string>Họ tên</string>
        </property>
       </item>
       <item row="2" column="1">
        <property name="text">
-        <string>Họ tên</string>
+        <string>Sinh: dd/mm/yyyy </string>
        </property>
       </item>
       <item row="2" column="2">
        <property name="text">
-        <string>Ngày</string>
+        <string>Mất: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="2" column="3">
@@ -674,31 +655,22 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
-       </property>
-      </item>
-      <item row="2" column="5">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
          <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="3" column="0">
        <property name="text">
-        <string>SĐT đăng nhập</string>
+        <string>Họ tên</string>
        </property>
       </item>
       <item row="3" column="1">
        <property name="text">
-        <string>Họ tên</string>
+        <string>Sinh: dd/mm/yyyy </string>
        </property>
       </item>
       <item row="3" column="2">
        <property name="text">
-        <string>Ngày</string>
+        <string>Mất: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="3" column="3">
@@ -716,31 +688,22 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="icon">
         <iconset>
-         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
-       </property>
-      </item>
-      <item row="3" column="5">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
          <normaloff>imgs/icon_del.png</normaloff>imgs/icon_del.png</iconset>
        </property>
       </item>
       <item row="4" column="0">
        <property name="text">
-        <string>SĐT đăng nhập</string>
+        <string>Họ tên</string>
        </property>
       </item>
       <item row="4" column="1">
        <property name="text">
-        <string>Họ tên</string>
+        <string>Sinh: dd/mm/yyyy </string>
        </property>
       </item>
       <item row="4" column="2">
        <property name="text">
-        <string>Ngày</string>
+        <string>Mất: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="4" column="3">
@@ -753,15 +716,6 @@ color: rgb(255, 255, 255);</string>
        </property>
       </item>
       <item row="4" column="4">
-       <property name="text">
-        <string/>
-       </property>
-       <property name="icon">
-        <iconset>
-         <normaloff>imgs/Screenshot 2024-09-28 193953.png</normaloff>imgs/Screenshot 2024-09-28 193953.png</iconset>
-       </property>
-      </item>
-      <item row="4" column="5">
        <property name="text">
         <string/>
        </property>
@@ -784,7 +738,7 @@ color: rgb(255, 255, 255);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>979</width>
+     <width>952</width>
      <height>26</height>
     </rect>
    </property>

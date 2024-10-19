@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>976</width>
-    <height>932</height>
+    <height>0</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -376,7 +376,7 @@ border-radius: 15px;
         </font>
        </property>
        <property name="text">
-        <string>PHẢ ĐỒ DÒNG HỌ NGUYỄN</string>
+        <string>PHẢ HỆ DÒNG HỌ NGUYỄN</string>
        </property>
       </widget>
      </widget>
@@ -561,7 +561,7 @@ border-radius: 15px;
        <property name="geometry">
         <rect>
          <x>150</x>
-         <y>10</y>
+         <y>20</y>
          <width>55</width>
          <height>16</height>
         </rect>
@@ -580,7 +580,7 @@ border-radius: 15px;
        <property name="geometry">
         <rect>
          <x>30</x>
-         <y>10</y>
+         <y>20</y>
          <width>41</width>
          <height>16</height>
         </rect>
@@ -623,9 +623,9 @@ border-radius: 15px;
       <widget class="QLabel" name="label_11">
        <property name="geometry">
         <rect>
-         <x>410</x>
-         <y>10</y>
-         <width>41</width>
+         <x>400</x>
+         <y>20</y>
+         <width>81</width>
          <height>16</height>
         </rect>
        </property>
@@ -636,14 +636,14 @@ border-radius: 15px;
         </font>
        </property>
        <property name="text">
-        <string>Ngày</string>
+        <string>Ngày sinh</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_12">
        <property name="geometry">
         <rect>
          <x>530</x>
-         <y>10</y>
+         <y>20</y>
          <width>101</width>
          <height>16</height>
         </rect>
@@ -655,7 +655,26 @@ border-radius: 15px;
         </font>
        </property>
        <property name="text">
-        <string>Sửa thông tin</string>
+        <string>Ngày mất</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>20</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Chỉnh sửa</string>
        </property>
       </widget>
      </widget>
@@ -683,6 +702,9 @@ border-radius: 15px;
       <property name="horizontalScrollBarPolicy">
        <enum>Qt::ScrollBarAlwaysOn</enum>
       </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
       <property name="autoScrollMargin">
        <number>16</number>
       </property>
@@ -699,10 +721,16 @@ border-radius: 15px;
        <number>5</number>
       </property>
       <property name="columnCount">
-       <number>5</number>
+       <number>6</number>
       </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>true</bool>
+      </attribute>
       <attribute name="horizontalHeaderStretchLastSection">
        <bool>false</bool>
+      </attribute>
+      <attribute name="verticalHeaderCascadingSectionResizes">
+       <bool>true</bool>
       </attribute>
       <attribute name="verticalHeaderStretchLastSection">
        <bool>false</bool>
@@ -712,6 +740,7 @@ border-radius: 15px;
       <row/>
       <row/>
       <row/>
+      <column/>
       <column/>
       <column/>
       <column/>
@@ -734,10 +763,15 @@ border-radius: 15px;
       </item>
       <item row="0" column="3">
        <property name="text">
-        <string>Sinh: dd/mm/yy  - Mất: dd/mm/yy</string>
+        <string>Sinh: dd/mm/yyyy </string>
        </property>
       </item>
       <item row="0" column="4">
+       <property name="text">
+        <string>Mất: dd/mm/yyyy</string>
+       </property>
+      </item>
+      <item row="0" column="5">
        <property name="text">
         <string/>
        </property>
@@ -763,10 +797,15 @@ border-radius: 15px;
       </item>
       <item row="1" column="3">
        <property name="text">
-        <string>Sinh: dd/mm/yy  - Mất: dd/mm/yy</string>
+        <string>Sinh: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="1" column="4">
+       <property name="text">
+        <string>Mất: dd/mm/yyyy</string>
+       </property>
+      </item>
+      <item row="1" column="5">
        <property name="text">
         <string/>
        </property>
@@ -792,10 +831,15 @@ border-radius: 15px;
       </item>
       <item row="2" column="3">
        <property name="text">
-        <string>Sinh: dd/mm/yy  - Mất: dd/mm/yy</string>
+        <string>Sinh: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="2" column="4">
+       <property name="text">
+        <string>Mất: dd/mm/yyyy</string>
+       </property>
+      </item>
+      <item row="2" column="5">
        <property name="text">
         <string/>
        </property>
@@ -821,10 +865,15 @@ border-radius: 15px;
       </item>
       <item row="3" column="3">
        <property name="text">
-        <string>Sinh: dd/mm/yy  - Mất: dd/mm/yy</string>
+        <string>Sinh: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="3" column="4">
+       <property name="text">
+        <string>Mất: dd/mm/yyyy</string>
+       </property>
+      </item>
+      <item row="3" column="5">
        <property name="text">
         <string/>
        </property>
@@ -850,10 +899,15 @@ border-radius: 15px;
       </item>
       <item row="4" column="3">
        <property name="text">
-        <string>Sinh: dd/mm/yy  - Mất: dd/mm/yy</string>
+        <string>Sinh: dd/mm/yyyy</string>
        </property>
       </item>
       <item row="4" column="4">
+       <property name="text">
+        <string>Mất: dd/mm/yyyy</string>
+       </property>
+      </item>
+      <item row="4" column="5">
        <property name="text">
         <string/>
        </property>
@@ -862,6 +916,17 @@ border-radius: 15px;
          <normaloff>imgs/icon_sua.png</normaloff>imgs/icon_sua.png</iconset>
        </property>
       </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 92, 92);
+color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Thêm người trong dòng họ</string>
+      </property>
      </widget>
     </item>
    </layout>

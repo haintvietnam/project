@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\mindx_app\app_intensive\project\pha_do_dong_ho.ui'
+# Form implementation generated from reading ui file 'd:\mindx_app\app_intensive\project\pha_he_dong_ho.ui'
 #
 # Created by: PyQt6 UI code generator 6.6.1
 #
@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(976, 947)
+        MainWindow.resize(976, 0)
         MainWindow.setToolTip("")
         MainWindow.setStatusTip("")
         MainWindow.setWhatsThis("")

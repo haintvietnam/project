@@ -24,19 +24,13 @@ class Login(QtWidgets.QMainWindow):
             self.close()
             mainPage.show()  
         else:
-            msg_box.setText("Email hoặc mật khẩu không đúng!")
+            msg_box.setText("Email hoặc mật khẩu không đúng!. Vui lòng đăng kí tài khoản!")
             msg_box.exec()
-class Login(QtWidgets.QMainWindow):
-    def __init__(self):
-        super().__init__()
-        uic.loadUi("SigninScreen.ui", self)
-        # self.Signin_button.clicked.connect(self.check_login)
-        # self.btn_register.clicked.connect(self.showRegister)
-    def check_login(self):
-        Username = self.txtUsername.text()
-        password = self.txtPassword.text()
+    def showRegister(self):
+        Username = self.txtUsername_2.text()
+        password = self.txtPassword_2.text()
         if not Username: 
-            msg_box.setText("Vui lòng nhập Username hoặc số điện thoại!")
+            msg_box.setText("Vui lòng nhập Username!")
             msg_box.exec()
             return
         if not password:
@@ -47,8 +41,9 @@ class Login(QtWidgets.QMainWindow):
             self.close()
             mainPage.show()  
         else:
-            msg_box.setText("Email hoặc mật khẩu không đúng!")
+            msg_box.setText("Email hoặc mật khẩu không đúng!. Vui lòng đăng kí tài khoản!")
             msg_box.exec()
+
 class Main(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -113,6 +108,8 @@ if __name__ == '__main__':
 #     #Tạo các đối tượng tương ứng với các trang giao diện
     loginPage = Login()
     loginPage.show()
+    logupPage = Logup()
+    logupPage.show()
     mainPage = Main()
     # pha_do_1 = pd1()
     # pha_do_2 = pd2()
