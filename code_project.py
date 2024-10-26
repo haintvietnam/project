@@ -3,33 +3,35 @@ from PyQt6.QtWidgets import QMessageBox, QWidget
 from PyQt6 import uic
 import re
 import sys
+import json
 class Login(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
         uic.loadUi("SigninScreen.ui", self)
-        self.Signin_button.clicked.connect(self.check_login)
-        self.btn_register.clicked.connect(self.showRegister)
-    def check_login(self):
-        Username = self.txtUsername.text()
-        password = self.txtPassword.text()
-        if not Username: 
-            msg_box.setText("Vui lòng nhập Username hoặc số điện thoại!")
-            msg_box.exec()
-            return
-        if not password:
-            msg_box.setText("Vui lòng nhập mật khẩu!")
-            msg_box.exec()
-            return
-        if Username == "admin@example.com" and password == "admin":
-            self.close()
-            mainPage.show()  
-        else:
-            msg_box.setText("Email hoặc mật khẩu không đúng!. Vui lòng đăng kí tài khoản!")
-            msg_box.exec()
-    def showRegister(self):
-        Username = self.txtUsername_2.text()
-        password = self.txtPassword_2.text()
-        if not Username: 
+    def load_users(filename):
+        with open(filename, 'r',) as file:
+            data = json.load(file)
+        return data['users']
+
+# Function to check login credentials
+    def login(users, username, password):
+        for user in users:
+            if user['username'] == username and user['password'] == password:
+             return True
+        return False
+    def main(self, load_users, login):
+        # Load users from the JSON file
+        users = load_users('data/tai_khoan_nguoi_dung.json')
+
+        # Ask for username and password
+        username = self.txtname.text()
+        password = self.txtPass.text()
+
+        # Check login credentials
+        if login(users, username, password):
+            logupPage.close()
+            mainPage.show()
+        if not username:
             msg_box.setText("Vui lòng nhập Username!")
             msg_box.exec()
             return
@@ -37,13 +39,29 @@ class Login(QtWidgets.QMainWindow):
             msg_box.setText("Vui lòng nhập mật khẩu!")
             msg_box.exec()
             return
-        if Username == "admin@example.com" and password == "admin":
-            self.close()
-            mainPage.show()  
         else:
-            msg_box.setText("Email hoặc mật khẩu không đúng!. Vui lòng đăng kí tài khoản!")
+            msg_box.setText("Login failed. Please check your username and password.")
             msg_box.exec()
-
+            
+class Logup(QtWidgets.QMainWindow):
+    def __init__(self):
+        super().__init__
+        uic.loadUi("Signup_Screen.ui", self)
+        self.Signup_button.clicked.connect(self.check_logup)
+    def check_logup(self):
+        Username_1 = self.txtname.text()
+        password_1 = self.txtPass.text()
+        if not Username_1:
+            msg_box.setText("Vui lòng nhập Username!")
+            msg_box.exec()
+            return
+        if not password_1:
+            msg_box.setText("Vui lòng nhập mật khẩu!")
+            msg_box.exec()
+            return
+        else:
+            self.close()
+            loginPage.show()
 class Main(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
@@ -109,7 +127,6 @@ if __name__ == '__main__':
     loginPage = Login()
     loginPage.show()
     logupPage = Logup()
-    logupPage.show()
     mainPage = Main()
     # pha_do_1 = pd1()
     # pha_do_2 = pd2()
