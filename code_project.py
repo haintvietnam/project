@@ -46,7 +46,7 @@ class Login(QtWidgets.QMainWindow):
 class Logup(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__
-        uic.loadUi("Signup_Screen.ui", self)
+        uic.loadUi("Signup_Screen_ui.ui", self)
         self.Signup_button.clicked.connect(self.check_logup)
     def check_logup(self):
         Username_1 = self.txtname.text()
@@ -126,8 +126,8 @@ if __name__ == '__main__':
 #     #Tạo các đối tượng tương ứng với các trang giao diện
     loginPage = Login()
     loginPage.show()
-    logupPage = Logup()
-    mainPage = Main()
+    # logupPage = Logup()
+    # mainPage = Main()
     # pha_do_1 = pd1()
     # pha_do_2 = pd2()
     # pha_he_1 = ph1()
@@ -135,10 +135,10 @@ if __name__ == '__main__':
     # pha_ky_1 = pk1()
     # pha_ky_2 = pk2()
     # Thiết lập hộp thoại thông báo lỗi
-    msg_box = QMessageBox()
-    msg_box.setWindowTitle("Lỗi")
-    msg_box.setIcon(QMessageBox.Icon.Warning)
-    msg_box.setStyleSheet("background-color: #F8F2EC; color: #356a9c")
+    # msg_box = QMessageBox()
+    # msg_box.setWindowTitle("Lỗi")
+    # msg_box.setIcon(QMessageBox.Icon.Warning)
+    # msg_box.setStyleSheet("background-color: #F8F2EC; color: #356a9c")
     app.exec()
 
 

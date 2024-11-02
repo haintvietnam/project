@@ -236,3 +236,11 @@ class Ui_MainWindow(object):
         self.pha_he_1.setText(_translate("MainWindow", "Phả Hệ"))
         self.pha_ky_1.setText(_translate("MainWindow", "Phả Ký"))
         self.label_3.setText(_translate("MainWindow", "GIA PHẢ DÒNG HỌ NGUYỄN"))
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())

@@ -369,3 +369,11 @@ class Ui_MainWindow(object):
         item = self.tableWidget.item(4, 2)
         item.setText(_translate("MainWindow", "Mất: dd/mm/yyyy"))
         self.tableWidget.setSortingEnabled(__sortingEnabled)
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())

@@ -483,3 +483,11 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "Mất: dd/mm/yyyy"))
         self.tableWidget.setSortingEnabled(__sortingEnabled)
         self.pushButton_4.setText(_translate("MainWindow", "Thêm người trong dòng họ"))
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())

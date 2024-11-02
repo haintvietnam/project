@@ -157,3 +157,11 @@ class Ui_MainWindow(object):
         self.txtPassword_2.setPlaceholderText(_translate("MainWindow", "Password"))
         self.label_2.setText(_translate("MainWindow", "Birthday"))
         self.Signup_button.setText(_translate("MainWindow", "SIGN UP"))
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())

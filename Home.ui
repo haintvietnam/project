@@ -403,7 +403,7 @@ border-radius: 15px;
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pha_he_2">
+        <widget class="QPushButton" name="btnPhaHe">
          <property name="cursor">
           <cursorShape>PointingHandCursor</cursorShape>
          </property>
@@ -433,7 +433,7 @@ border-radius: 15px;
      <x>0</x>
      <y>0</y>
      <width>1005</width>
-     <height>26</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>

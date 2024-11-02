@@ -70,7 +70,7 @@ class Ui_MainWindow(object):
         self.verticalLayout.addWidget(self.frame_6)
         self.frame_2 = QtWidgets.QFrame(parent=self.frame)
         self.frame_2.setMaximumSize(QtCore.QSize(10000, 500))
-        self.frame_2.setStyleSheet("background-color: rgba(255, 255, 255,0);")
+        self.frame_2.setStyleSheet("background-color:rgba(255, 255, 255,0);")
         self.frame_2.setFrameShape(QtWidgets.QFrame.Shape.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_2.setObjectName("frame_2")
@@ -192,3 +192,11 @@ class Ui_MainWindow(object):
         self.label_6.setText(_translate("MainWindow", "Need an account ?"))
         self.btn_register.setText(_translate("MainWindow", "Register"))
         self.label_8.setText(_translate("MainWindow", "Forgot password"))
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())
